@@ -16,6 +16,9 @@
 		371797341AB0094600B94559 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371797311AB0094600B94559 /* Default-568h@2x.png */; };
 		371797351AB0094600B94559 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371797321AB0094600B94559 /* Default-667h@2x.png */; };
 		371797361AB0094600B94559 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 371797331AB0094600B94559 /* Default-736h@3x.png */; };
+		3717973B1AB00EA400B94559 /* masuhara1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 371797381AB00EA400B94559 /* masuhara1.jpg */; };
+		3717973C1AB00EA400B94559 /* masuhara3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 371797391AB00EA400B94559 /* masuhara3.jpg */; };
+		3717973D1AB00EA400B94559 /* masuhara2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3717973A1AB00EA400B94559 /* masuhara2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		371797311AB0094600B94559 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		371797321AB0094600B94559 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		371797331AB0094600B94559 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		371797381AB00EA400B94559 /* masuhara1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = masuhara1.jpg; sourceTree = "<group>"; };
+		371797391AB00EA400B94559 /* masuhara3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = masuhara3.jpg; sourceTree = "<group>"; };
+		3717973A1AB00EA400B94559 /* masuhara2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = masuhara2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		3717970D1AB0091000B94559 /* TableVIew-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				371797371AB00E8E00B94559 /* Image */,
 				371797101AB0091000B94559 /* AppDelegate.swift */,
 				371797121AB0091000B94559 /* ViewController.swift */,
 				371797141AB0091000B94559 /* Main.storyboard */,
@@ -127,6 +134,16 @@
 				371797331AB0094600B94559 /* Default-736h@3x.png */,
 			);
 			path = "Defaults-master";
+			sourceTree = "<group>";
+		};
+		371797371AB00E8E00B94559 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				371797381AB00EA400B94559 /* masuhara1.jpg */,
+				371797391AB00EA400B94559 /* masuhara3.jpg */,
+				3717973A1AB00EA400B94559 /* masuhara2.jpg */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,11 +227,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				371797161AB0091000B94559 /* Main.storyboard in Resources */,
+				3717973C1AB00EA400B94559 /* masuhara3.jpg in Resources */,
 				371797341AB0094600B94559 /* Default-568h@2x.png in Resources */,
 				3717971B1AB0091000B94559 /* LaunchScreen.xib in Resources */,
 				371797181AB0091000B94559 /* Images.xcassets in Resources */,
+				3717973B1AB00EA400B94559 /* masuhara1.jpg in Resources */,
 				371797351AB0094600B94559 /* Default-667h@2x.png in Resources */,
 				371797361AB0094600B94559 /* Default-736h@3x.png in Resources */,
+				3717973D1AB00EA400B94559 /* masuhara2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
